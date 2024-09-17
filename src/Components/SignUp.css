@@ -1,0 +1,76 @@
+.form3-container {
+  width: 420px;
+  border: 1px solid #2c2b2b;
+  box-shadow: 0 10px 10px rgba(255, 244, 255, 0.1);
+  border-radius: 5px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 30px;
+  background: #fff;
+}
+
+.form3-container h1 {
+  margin-bottom: 20px;
+}
+
+.form3-container .data-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.form3-container .data-container .name-container,
+.password-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.form3-container .data-container .input-container {
+  margin-top: 15px;
+  position: relative;
+}
+
+.form3-container .data-container .input-container label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form3-container .data-container .input-container .input-field {
+  height: 35px;
+  border: 1px solid #c2c0c0;
+  width: 100%;
+  outline: none;
+  padding: 20px;
+}
+
+.form3-container .error-msg {
+  font-size: 12px;
+  color: red;
+}
+
+.form3-container .input-container .icon {
+  position: absolute;
+  top: 33px;
+  right: 20px;
+  color: #c2c0c0;
+  cursor: pointer;
+}
+
+.form3-container button {
+  padding: 10px 25px;
+  background-color: #dae67c;
+  color: #131313;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.form3-container button:hover {
+  background-color: #bfd050;
+}
